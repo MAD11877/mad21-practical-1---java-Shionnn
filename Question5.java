@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.*;
 
 public class Question5
 {
@@ -27,6 +28,27 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Enter a integer: ");
+    int num = in.nextInt();
+    List<String> list = new ArrayList<String>(); 
+    in.nextLine();
+    for (int i = 0; i < num; i++){
     
+      String str = in.nextLine();
+      list.add(str);
+    };
+    
+    for (int i = 0; i < list.size(); i++){
+      
+      for (int j = i+1; j < list.size(); j++){
+        // System.out.println(list.get(i) + list.get(j));
+        if (list.get(i).equals(list.get(j))){
+          num--;
+        }
+      }
+      // System.out.println(count);
+    }
+    System.out.print("Mode: " + num);
+
   }
 }
