@@ -20,7 +20,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter integer: ");
+    // System.out.print("Enter integer: ");
     int num = in.nextInt();
     
     for (int i = num; i > 0; i--){

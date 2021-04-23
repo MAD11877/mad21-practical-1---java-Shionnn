@@ -28,7 +28,7 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a integer: ");
+    // System.out.print("Enter a integer: ");
     int num = in.nextInt();
     List<String> list = new ArrayList<String>(); 
     in.nextLine();
@@ -48,7 +48,7 @@ public class Question5
       }
       // System.out.println(count);
     }
-    System.out.print("Mode: " + num);
+    System.out.print(num);
 
   }
 }
