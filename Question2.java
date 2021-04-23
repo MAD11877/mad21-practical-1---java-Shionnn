@@ -13,7 +13,7 @@ public class Question2
     Scanner in = new Scanner(System.in);
     System.out.print("Enter height: ");
     double height = in.nextDouble();
-    height = height/100;
+    // height = height/100;
     System.out.print("Enter weight: ");
     double weight = in.nextDouble();
 
